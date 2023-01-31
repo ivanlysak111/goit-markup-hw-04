@@ -19,6 +19,7 @@ ul,
 ol {
   margin: 0;
   padding-left: 0;
+  list-style: none;
 }
 
 .titles {
@@ -225,6 +226,22 @@ header > .container {
   width: 264px;
 }
 
+.benefits-icon {
+  width: 264px;
+  height: 112px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: #f4f4fd;
+  border-radius: 4px;
+}
+
+.benefits > h3 {
+margin-top: 8px;
+}
+
 /* ---------------Section №3: What are we doing----------------- */
 .wawd {
   padding-top: 120px;
@@ -274,6 +291,37 @@ header > .container {
 .team-item > p {
   margin-bottom: 152px;
   text-align: center;
+}
+
+.team-wrap > .paragraphs {
+  margin-bottom: 8px;
+}
+
+.team-icons {
+  display: flex;
+  gap: 24px;
+}
+
+.team-link {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+
+  background-color: #4d5ae5;
+  border-radius: 50%;
+
+  width: 40px;
+  height: 40px;
+}
+
+.team-icons {
+  justify-content: center;
+}
+
+.team-link:hover,
+.team-link:focus {
+  background-color: #404bbf;
 }
 
 /* ---------------Portfolio page----------------- */
