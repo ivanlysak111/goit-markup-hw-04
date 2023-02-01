@@ -239,7 +239,7 @@ header > .container {
 }
 
 .benefits > h3 {
-margin-top: 8px;
+  margin-top: 8px;
 }
 
 /* ---------------Section №3: What are we doing----------------- */
@@ -323,6 +323,35 @@ margin-top: 8px;
 .team-link:focus {
   background-color: #404bbf;
 }
+
+   /* ---------------Section №5: Customers----------------- */
+.customers-list {
+display: flex;
+ gap: 24px;
+}
+
+   .customers-link {
+   display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  width: 168px;
+  height: 88px;
+  
+  fill: #998e8e;
+  color: #8e8f99;
+
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+}
+
+.cust-link:hover,
+.cust-link:focus {
+  border-color: #404bbf;
+  color: #404bbf;
+}
+
+
 
 /* ---------------Portfolio page----------------- */
 .menu {
