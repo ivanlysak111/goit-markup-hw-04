@@ -147,7 +147,7 @@ header > .container {
   background: #2e2f42;
 }
 
-.footer-paragraph {
+.footer-paragraph-one {
   color: #e7e9fc;
   max-width: 264px;
 }
@@ -158,6 +158,41 @@ header > .container {
 
 .logo-footer {
   margin-bottom: 16px;
+}
+
+.footer-list-one {
+  display: flex;
+  gap: 120px;
+}
+
+.footer-list-two {
+  display: flex;
+}
+
+.footer-list-two {
+  display: flex;
+  gap: 16px;
+}
+
+.footer-paragraph-two {
+margin-bottom: 16px;
+color: #ffffff;
+font-weight: 500;
+}
+
+.footer-item {
+  
+}
+.footer-link {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+
+  width: 40px;
+  height: 40px;
 }
 
 /* ---------------Section №1: Hero----------------- */
@@ -261,7 +296,7 @@ header > .container {
 .team {
   background: #f4f4fd;
   padding-top: 120px;
-  padding-bottom: 120px;
+  padding-bottom: 110px;
 }
 
 .team-list {
@@ -324,20 +359,25 @@ header > .container {
   background-color: #404bbf;
 }
 
-   /* ---------------Section №5: Customers----------------- */
-.customers-list {
-display: flex;
- gap: 24px;
+/* ---------------Section №5: Customers----------------- */
+.customers {
+  padding-top: 130px;
+  padding-bottom: 120px;
 }
 
-   .customers-link {
-   display: flex;
+.customers-list {
+  display: flex;
+  gap: 24px;
+}
+
+.customers-link {
+  display: flex;
   justify-content: center;
   align-items: center;
-  
+
   width: 168px;
   height: 88px;
-  
+
   fill: #998e8e;
   color: #8e8f99;
 
@@ -345,13 +385,16 @@ display: flex;
   border-radius: 4px;
 }
 
-.cust-link:hover,
-.cust-link:focus {
-  border-color: #404bbf;
-  color: #404bbf;
+.customers-icon {
+  fill: currentColor;
 }
 
-
+.customers-link:hover,
+.customers-link:focus {
+  border-color: #404bbf;
+  fill: #404bbf;
+  color: #404bbf;
+}
 
 /* ---------------Portfolio page----------------- */
 .menu {
